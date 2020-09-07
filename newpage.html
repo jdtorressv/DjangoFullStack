@@ -2,24 +2,42 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Exercise Title</title>
+    <title>Hotel Feedback</title>
   </head>
   <body>
-    <h1>Welcome to my Webpage!</h1>
-    <p>I'm excited to eventually learn Django.</p>
-    <a href="https://www.djangoproject.com/"><img src="../python-logo.svg" alt="Should be the pythons of Python linking to Django site"></a>
-    <!--><p>Here is a picture of the Python logo:</p><-->
-    <p>Here are three reasons why Django is cool:</p>
-    <ol>
-      <li>
-        Ridiculously fast.
-      </li>
-      <li>
-        Reassuringly secure.
-      </li>
-      <li>
-        Exceedingly scalable.
-      </li>
-    </ol>
+    <h1>Hotel Feedback Form</h1>
+      <form method="get">
+        <h3>Are you from inside or outside the US?</h3>
+        <label for="r1">In</label>
+
+        <input type="radio" id="r1" name="location" value="Inside" >
+
+        <label for="r2">Out</label>
+
+        <input type="radio" id="r2" name="location" value="Outside" >
+
+        <p>
+          How was our service?
+        </p>
+        <select name="stars">
+          <option value="Great">
+            3
+          </option>
+          <option value="Good">
+            2
+          </option>
+          <option value="Fair">
+            1
+          </option>
+        </select>
+        <br />
+        <p>
+          Any other feedback?
+        </p>
+        <textarea name="mytextarea" rows="8" cols="80"></textarea>
+        <br />
+        <input type="submit" name="" value="SUBMIT" >
+
+      </form>
   </body>
 </html>
