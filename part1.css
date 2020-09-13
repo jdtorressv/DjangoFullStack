@@ -1,20 +1,32 @@
-body{
-  background: url(https://cdn.mos.cms.futurecdn.net/wtqqnkYDYi2ifsWZVW2MT4-1200-80.jpg);
-  background-repeat: repeat;
+.seconddiv, h3 {
+  color: red;
 }
 
-div{
-  background-color: blue;
-  border-color: orange;
-  border-width: 4px;
-  border-style: double;
+li a[href="www.npr.org"]{
+  color: brown;
+  border: 3px dotted purple;
 }
 
-p{
-  color: yellow;
+div.firstdiv {
+  color:blue
 }
 
-span{
-  background: red;
-  color: black;
+#singledout {
+  color: green;
+}
+
+h3 ~ ul {
+  border: 3px dotted purple;
+}
+
+li {
+  color: red
+}
+
+.topitems {
+  color: blue
+}
+
+#two {
+  border: 3px solid black; 
 }
